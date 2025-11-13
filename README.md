@@ -1,16 +1,36 @@
-# React + Vite
+# 📰 React News App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple and responsive **React News App** that fetches and displays the latest headlines using the [News API](https://newsapi.org/).  
+Built with **React** and **Axios**, this project demonstrates how to consume a public REST API and render data dynamically.
 
-Currently, two official plugins are available:
+![App Screenshot](https://i.postimg.cc/LXXrShvg/news-app-11-13-2025-10-59-AM.png)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## React Compiler
+## 🚀 Features
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- Fetches live news data from **NewsAPI.org**
+- Built entirely with **React** (no backend)
+- Uses **Axios** for API calls
+- Responsive UI for desktop and mobile
+- Displays article title, image, description, and source
+- Simple and minimal design
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🧰 Tech Stack
+
+| Purpose | Technology |
+|----------|-------------|
+| **Frontend** | React |
+| **API Requests** | Axios |
+| **Data Source** | [News API](https://newsapi.org/) |
+
+---
+
+## ⚙️ Installation & Setup
+
+1. **Clone the repository**
+   ```bash
+   git clone https://github.com/yourusername/react-news-app.git
+   cd react-news-app
