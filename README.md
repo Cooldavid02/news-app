@@ -32,5 +32,5 @@ Built with **React** and **Axios**, this project demonstrates how to consume a p
 
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/yourusername/react-news-app.git
-   cd react-news-app
+   git clone https://github.com/Cooldavid02/news-app.git
+   cd news-app
